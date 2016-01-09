@@ -20,7 +20,7 @@ public class IndexController {
      */
     @RequestMapping("/index.htm")
     public String index() {
-        String a = ";";
+        String a = ";aa";
         return "/ftl/index";
     }
 }
